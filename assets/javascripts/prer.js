@@ -1,5 +1,5 @@
-$(function () {
-  if (typeof jsToolBar != 'undefined') {
+window.addEventListener('load', function () {
+  if (typeof jsToolBar !== 'undefined') {
     // pre with code class ruby
     jsToolBar.prototype.elements.prer = {
             type: 'button',
